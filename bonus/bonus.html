@@ -11,10 +11,14 @@
     
     <div id="app">
         <h1>{{ message }}</h1>
-        <!-- <input v-model="name"> -->
-        <input v-model="number">
-        <button @click="plusOne">Aggiungi</button>
+        <input v-model="name" :placeholder="placeholderName">
+
+
+        <input v-model="number" :placeholder="placeholderNum">
+        <button @click="plusOne">Aggiungi 1</button>
         <img :src="image" alt="">
+
+
     </div>
 
     <script src="js-bonus/bonus.js"></script>

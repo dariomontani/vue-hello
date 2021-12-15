@@ -7,7 +7,10 @@ var app = new Vue({
     data: {
         message: 'Vue Hello!',
         image: 'https://picsum.photos/200/300',
-        number: ''
+        name:'',
+        placeholderName:'inserisci il tuo nome',
+        number: '',
+        placeholderNum:'inserisci un numero'
     },
 
     methods: {
